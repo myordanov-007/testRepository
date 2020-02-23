@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="kursova.css">
+
+        <!--<script type="text/javascript">
+            function checkInfo()
+            {
+                var user=document.getElementById("email").value;
+                var password=document.getElementById("password").value;
+                if(user=="" || password=="")
+                {
+                    alert("empty fields")
+                }
+                else if(password.length < 6 || password > 15)
+                    alert("password must be between 6 and 15 symbols")
+            }
+
+        </script>-->
+        <meta charset="utf-8">
+        <title>Login</title>
+    </head>
+    <body>
+        <h1 align="center"><font color="blue"> Welcome in our online store</h1></font>
+        <h1>Login</h1>
+
+        <img src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png">
+        <p>Enter your email and password to continue.</p>
+        <form action="Testing" method="POST" onsubmit="checkInfo()">
+            <div>
+                <img src="loginpic.png" width=4% height=4%>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Please write your e-mail" required autofocus>
+            </div>
+
+            <div>
+               <img src="passpic.png" width=4% height=4%>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Please write your password" required>
+            </div>
+
+            <div>
+                <input type="submit" value="Login" />
+
+
+                <input type="reset" value="Delete" />
+            
+                <input type="checkbox" id="remember_me" />
+                <label for="remember_me">Remember me</label>
+            </div>
+
+            <a href="registerpage.html">Don't have an account? Register.</a>
+        </form>
+        <script type="text/javascript" src="valloginkursova.js"></script>
+    </body>
+</html>

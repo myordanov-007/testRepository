@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="kursova.css">
+        <meta charset="utf-8">
+        <title>Register</title>
+    </head>
+    <body>
+        <h1 align="center"><font color="blue"> Welcome in our online store</h1></font>
+        <h1>Register</h1>
+        <img src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png">
+        <p>Please register to continue and visit our online store.</p>
+        <form action="Register" method="POST" onsubmit="checkInfo1()">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required  />
+            </div>
+            <div>
+                <label for="lastname">LastName:</label>
+                <input type="text" id="lastname" name="lastname" required  />
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required  />
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required />
+            </div>
+            <div>
+                <label for="repassword">RePassword:</label>
+                <input type="password" id="repassword" name="repassword" required />
+            </div>
+
+            <div>
+                <input type="submit" value="Register" />
+
+
+                <input type="reset" value="Delete" />
+            </div>
+           <!-- <div>
+                <input type="checkbox" id="remember_me" />
+                <label for="remember_me">Remember me</label>
+            </div>
+
+            <a href="register.html">Don't have an account? Register.</a>-->
+        </form>
+        <script type="text/javascript" src="valloginkursova.js"></script>
+    </body>
+</html>
